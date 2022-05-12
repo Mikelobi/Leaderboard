@@ -8,7 +8,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
     </style>
     <title>Leaderboard</title>
-  <script defer src="main.js"></script></head>
+  <script defer src="bundle.js"></script></head>
   <body>
     <h1 class="page-header">Leaderboard</h1>
     <section id="leaderboard-scores" class="leaderboard">
@@ -21,6 +21,12 @@
         </div>
         <div class="current-scores">
           <ul class="score-list">
+            <li class="score-item score-light">Name: 100</li>
+            <li class="score-item score-dark">Name: 100</li>
+            <li class="score-item score-light">Name: 100</li>
+            <li class="score-item score-dark">Name: 100</li>
+            <li class="score-item score-light">Name: 100</li>
+            <li class="score-item score-dark">Name: 100</li>
           </ul>
         </div>
       </div>
@@ -31,14 +37,9 @@
             <input type="text" id="name" placeholder="Your name" required />
           </label>
           <label for="score">
-            <input type="number" id="score" placeholder="Your score" min="0" required />
+            <input type="number" id="score" placeholder="Your score" required />
           </label>
-          <button
-            id="add-score"
-            class="btn btn-submit"
-            type="submit"
-            value="submit"
-          >
+          <button class="btn btn-submit" type="submit" value="submit">
             Submit
           </button>
         </form>
