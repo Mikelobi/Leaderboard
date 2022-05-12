@@ -17,10 +17,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-- run `npm install --save-dev hint@6.x `to install all packages
-- run `npm run build` to bundle the project with webpack
-- run `npm start` to launch the application
-   
+  Run
+   ```
+   npm install --save-dev hint@6.x
+   ```
 ## Authors
 
 👤 **Ugochukwu Omulu**

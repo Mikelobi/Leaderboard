@@ -2,7 +2,7 @@ const userName = document.querySelector('#name');
 const userScore = document.querySelector('#score');
 
 const URL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api';
-const gameID = 'X5ySJ9QQJgglNRtzy1mN';
+const gameID = 'j5tKTK4vpKnLGgqNW9jv';
 const endPoint = `${URL}/games/${gameID}/scores/`;
 
 const addScore = async () => {
