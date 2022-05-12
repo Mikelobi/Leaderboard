@@ -1,5 +1,5 @@
 {
-  "name": "Leader-board",
+  "name": "leader-board",
   "version": "1.0.0",
   "description": "A website to add and display players' scores. All data is stored and retrieved from the external Leaderboard API service.",
   "private": true,
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/Mikelobi/Leaderboard.git"
   },
   "keywords": [],
-  "author": "Ben Kiarie",
+  "author": "Mikel",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Mikelobi/Leaderboard/issues"
