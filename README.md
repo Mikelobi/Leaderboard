@@ -15,12 +15,13 @@ To get a local copy up and running follow these simple example steps.
    git clone git@github.com:Mikelobi/Leaderboard.git
    ```
 
-### Install
+### Setup
 
-  Run
-   ```
-   npm install --save-dev hint@6.x
-   ```
+- cd into directory
+- Run `npm install` to install all dependencies
+- run `npm run build` to bundle the project with webpack, and
+- run `npm start` to launch the application
+
 ## Authors
 
 👤 **Ugochukwu Omulu**
